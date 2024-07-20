@@ -3,6 +3,7 @@ import { getAuth } from "firebase/auth";
 import { getStorage } from "firebase/storage";
 
 
+
  console.log(import.meta.env.API_KEY);
   console.log(import.meta.env.AUTH_DOMAIN);
   console.log(import.meta.env.PROJECT_ID);
