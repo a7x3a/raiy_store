@@ -1,6 +1,7 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getStorage } from "firebase/storage";
+const {API_KEY,APP_ID,AUTH_DOMAIN,MEASUREMENT_ID,MESSAGING_SENDERID,PROJECT_ID,STORAGE_BUCKET} = import.meta.env;
 const firebaseConfig = {
   apiKey: "AIzaSyBo_ODg2WV0Yh_0SzqAEx4k2mwN0BxsptI",
   authDomain: "raiystore.firebaseapp.com",
