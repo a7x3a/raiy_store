@@ -4,8 +4,8 @@ import { getStorage } from "firebase/storage";
 
 
 
- console.log(process.env.API_KEY);
-  console.log(process.env.AUTH_DOMAIN);
+ console.log(import.meta.env.API_KEY);
+  console.log(import.meta.env.AUTH_DOMAIN);
   console.log(import.meta.env.PROJECT_ID);
   console.log(import.meta.env.STORAGE_BUCKET);
   console.log(import.meta.env.MESSAGING_SENDER_ID);
