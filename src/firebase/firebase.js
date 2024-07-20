@@ -1,7 +1,14 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getStorage } from "firebase/storage";
-const {API_KEY,APP_ID,AUTH_DOMAIN,MEASUREMENT_ID,MESSAGING_SENDERID,PROJECT_ID,STORAGE_BUCKET} = import.meta.env;
+const API_KEY = import.meta.env.API_KEY;
+const APP_ID = import.meta.env.APP_ID;
+const AUTH_DOMAIN = import.meta.env.AUTH_DOMAIN;
+const MEASUREMENT_ID = import.meta.env.MEASUREMENT_ID;
+const MESSAGING_SENDERID = import.meta.env.MESSAGING_SENDERID;
+const PROJECT_ID = import.meta.env.PROJECT_ID;
+const STORAGE_BUCKET = import.meta.env.STORAGE_BUCKET;
+
 console.log(API_KEY);
 console.log(APP_ID);
 console.log(AUTH_DOMAIN);
